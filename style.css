@@ -82,12 +82,10 @@ textarea:not([rows]) {
 
 .content {
     background: #020024;
-    background: linear-gradient(
-        222deg,
-        rgba(2, 0, 36, 1) 0%,
-        rgba(9, 9, 121, 1) 35%,
-        rgba(0, 212, 255, 1) 100%
-    );
+    background: linear-gradient(222deg,
+            rgba(2, 0, 36, 1) 0%,
+            rgba(9, 9, 121, 1) 35%,
+            rgba(0, 212, 255, 1) 100%);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -98,10 +96,24 @@ textarea:not([rows]) {
 .sizes {
     display: flex;
     gap: 4rem;
+    max-height: 144rem;
 }
 
 .sizes div {
     padding: 1rem 2rem;
     border-radius: 1rem;
     background-color: black;
+}
+
+.container {
+    max-height: 144rem;
+}
+.font-size {
+
+}
+.viewport-size {
+
+}
+.container-size {
+
 }
