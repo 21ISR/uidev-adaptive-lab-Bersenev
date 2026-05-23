@@ -94,7 +94,10 @@ textarea:not([rows]) {
     flex-direction: column;
     color: white;
     margin: auto;
+    width: 100%;
     max-width: 1440px;
+    padding-left: 2rem;
+    padding-right: 2rem;
     min-height: 100dvh;
 }
 
@@ -114,9 +117,9 @@ textarea:not([rows]) {
     padding: 2rem;
 }
 
-@media screen and (max-width: 1024px; ) {
+@media screen and (max-width: 1024px) {
     html {
-        font-size: 62.5%;
+        font-size: 56.25%;
     }
 }
 
@@ -126,7 +129,7 @@ textarea:not([rows]) {
     }
 
     .content {
-        max-width: 480px;
+        max-width: 768px;
     }
 }
 
